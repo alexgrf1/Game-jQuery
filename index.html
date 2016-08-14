@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src='node_modules/jquery/dist/jquery.min.js'></script>
+<script type="text/javascript" src='game.js'></script>
+<link rel="stylesheet" type="text/css" href="reset.css">
+
+<style>
+	.demo {
+		position:absolute;
+	}
+	#player {
+		position:absolute;
+		bottom:230px;
+		left:860px;
+		height:150px;
+		width:150px;
+		background-color: rgb(141, 38, 19);
+	}
+	img {
+		height:40px;
+		width:auto;
+	}
+	span {
+		font-size:200%;
+	}
+</style>
+</head>
+<body>
+	<button id='btn1'>Play</button>
+	<div id="player"></div>
+	<img alt="life" src='heart.png'/>&nbsp;
+	<span id='life'>3</span>
+</body>
+</html>
